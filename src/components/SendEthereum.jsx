@@ -69,7 +69,7 @@ console.log(res1);
 
   const getWallets=async()=>{
      
-   const response=await fetch(`http://localhost:5000/api/getWallet`,{
+   const response=await fetch(`https://hackathon-psi-topaz.vercel.app/api/getWallet`,{
     method:'GET',
     headers:{
       "Content-Type":"application/json"
